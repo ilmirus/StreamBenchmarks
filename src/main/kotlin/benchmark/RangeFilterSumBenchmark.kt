@@ -25,8 +25,8 @@ import srcmanbase.*
 import java.util.concurrent.TimeUnit
 import java.util.stream.Collectors
 import java.util.stream.Stream
-import kotlin.coroutines.experimental.CoroutineContext
-import kotlin.coroutines.experimental.buildSequence
+import kotlin.coroutines.CoroutineContext
+import kotlin.sequences.buildSequence
 
 fun Int.isGood() = this % 4 == 0
 
